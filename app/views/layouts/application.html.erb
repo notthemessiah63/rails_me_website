@@ -23,8 +23,10 @@
 <footer>
     <container class='nav'>
     <nav>
-      <li class='nav_menu'><a href="/home">Home</a></li>
-      <li class='nav_menu'><a href="/photography">Photography</a></li>
+      <li><%= link_to('home', home_path, class: 'nav_menu')%></li>
+<!--       <li class='nav_menu'><a href="/home">Home</a></li> -->
+      <li><%= link_to('photography', photography_path, class: 'nav_menu')%></li>
+<!--       <li class='nav_menu'><a href="/photography">Photography</a></li> -->
       <li class='nav_menu'><a href="/workshop">Workshop</a></li>
       <li class='nav_menu'><a href="/history">Background</a></li>
       <li class='nav_menu'><a href="/aspirations">From Here</a></li>  
